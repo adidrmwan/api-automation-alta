@@ -22,7 +22,7 @@ public class Get {
 
     @Step("I receive valid HTTP response code 200")
     public void validateHttpResponseCode200() {
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
     @Step("I receive valid data for detail user")
