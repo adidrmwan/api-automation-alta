@@ -1,4 +1,4 @@
-Feature: User As an admin I want to see list of user So that I can create new user
+Feature: User As an admin I want to see list of user So that I can create new user only
 
   Scenario: GET - As admin I have be able to get detail user
     Given I set GET api endpoints
